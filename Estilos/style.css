@@ -1,0 +1,23 @@
+.encabezado{
+    color:blue;
+    text-align: center;
+    
+}
+
+.titulo1{
+
+    text-align: center;
+}
+
+.texto {
+    color: blueviolet;
+    text-align: justify; 
+    width: 800px; 
+    margin: 10px auto;
+}
+
+.datos{
+
+    margin: 10px auto; 
+    width: 500px;
+}
