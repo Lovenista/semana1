@@ -50,6 +50,7 @@ body {
 
 .navbar a:hover {
     background: #f5de9f;
+    padding: 16px 20px;
 }
 
 .header {
@@ -62,7 +63,6 @@ body {
 .header {
     height: 60vh !important;
     background: #f8d571;
-    
 }
 
 .header1 {
@@ -79,11 +79,12 @@ body {
 }
 
 .tex1{
-    margin-left: 40px;
+    margin-left: 800px;
     font-size: 18px;
     color: #254156;
     padding: 0 100px;
     text-align: left;
+    margin-right: 400px;
 }
 
 
@@ -97,8 +98,15 @@ body {
 }
 
 
-
 .title {
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.title1 {
     margin-bottom: 30px;
     font-size: 40px;
     font-weight: 600;
@@ -127,6 +135,7 @@ p {
 
 .btn:hover {
     background: none;
+    color: #cec109;
     
 }
 
@@ -178,14 +187,10 @@ p {
 }
 
 .box-container .box i {
-    height: 3rem;
-    width: 3rem;
-    line-height: 3rem;
     text-align: center;
     border-radius: 50%;
     color: #fff;
-    background:  #0a7f8f;
-    font-size: 2rem;
+    font-size: 50px;
     margin: 1rem 0;
 
 }
@@ -223,7 +228,10 @@ p {
 }
 
 .about {
-    background:  #fff;
+    height: 60vh !important;
+    background: url(img/fondo.jpg) no-repeat center;
+    background-size: cover;
+         
 }
 
 .photos {
